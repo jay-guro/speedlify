@@ -2,7 +2,7 @@ module.exports = {
 	name: "jasonguro.com", // optional, falls back to object key
 	description: "My site",
 	// skip if localhost
-	skip:  process.env.NEXT_PUBLIC_SPEEDLIFY !== "TRUE",
+	skip: process.env.NEXT_PUBLIC_SPEEDLIFY !== "TRUE",
 	options: {
 		frequency: 60 * 23, // 23 hours
 		// Use "run" if the sites don’t share assets on the same origin
