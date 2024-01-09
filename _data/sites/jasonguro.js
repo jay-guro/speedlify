@@ -2,8 +2,7 @@ module.exports = {
 	name: "jasonguro.com", // optional, falls back to object key
 	description: "My site",
 	// skip if localhost
-	// skip if this is a new fork of the speedlify (not Zach’s)
-	skip: !process.env.CONTEXT || process.env.NEXT_PUBLIC_SPEEDLIFY !== "TRUE",
+	skip:  process.env.NEXT_PUBLIC_SPEEDLIFY !== "TRUE",
 	options: {
 		frequency: 60 * 23, // 23 hours
 		// Use "run" if the sites don’t share assets on the same origin
