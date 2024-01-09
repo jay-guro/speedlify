@@ -1,9 +1,9 @@
 module.exports = {
-	name: "Jason's sites", // optional, falls back to object key
+	name: "My sites", // optional, falls back to object key
 	description: "The default sites that get tested",
 	options: {
 		runs: 1,
-		frequency: 1, // (in minutes)
+		frequency: 15, // (in minutes)
 	},
 	urls: [
 		"https://samuelrodriguezc.vercel.app",
