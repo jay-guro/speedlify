@@ -3,7 +3,7 @@ module.exports = {
 	description: "My production sites",
 	options: {
 		runs: 1,
-		frequency: 1, // (in minutes)
+		frequency: 15, // (in minutes)
 	},
 	urls: [
 		"https://samuelrodriguezc.vercel.app",
