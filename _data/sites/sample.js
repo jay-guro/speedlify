@@ -1,9 +1,9 @@
 module.exports = {
-	name: "My sites", // optional, falls back to object key
-	description: "The default sites that get tested",
+	name: "My production sites", // optional, falls back to object key
+	description: "My production sites",
 	options: {
 		runs: 1,
-		frequency: 15, // (in minutes)
+		frequency: 1, // (in minutes)
 	},
 	urls: [
 		"https://samuelrodriguezc.vercel.app",
@@ -17,10 +17,10 @@ module.exports = {
 		"https://www.mde.rentals",
 		"https://www.elparchecolombianfastfood.com",
 		"https://www.highroad207.com",
-		"https://www.turbocarguy.com",
+		"https://turbocarguy.com",
 		"https://www.colvisahelp.com",
 		"https://sherpas.dev",
-		"https://www.floridaresidence.us",
+		"https://floridaresidence.us",
 		"https://www.hellooki.com",
 		"https://www.campusdeiaguaviva.com",
 		"https://www.alexroman.boats",
